@@ -1,0 +1,94 @@
+
+<!--
+   table
+-->
+<html>
+<style>
+   div{
+         border:5px solid yellow;
+		 width:80%;
+		 margin:auto;
+		 padding:5px;
+		 background-color:pink;
+
+     }
+    table{
+	      border:2px solid red;
+		  margin:auto;
+	     width:70%;
+		 height:400px; 
+		 //rules:all;
+	}
+	caption{
+	        color:red;
+			font-size:25px;
+			border:2px solid blue;
+			margin-bottom:5px;
+			background-color:lightyellow;
+	}
+	th{
+	      background-color:yellow;	  
+	}
+	tr{
+	    background-color:lightblue;
+	}
+	td{
+	    text-align:center;
+	}
+	#lastrow{
+	    text-align:center;
+		background-color:lightgreen;
+	}
+	
+</style>
+<head>
+</head>
+
+<body bgcolor="cyan">
+<div>
+ <table border="1" >
+         <caption>Empolyee-Details</caption>
+     <thead>
+	  <tr>
+	     <th> EMPNO</th> <th> ENAME</th> <th> JOB</th> <th> MGR</th> <th> HIREDATE</th> <th> SALARY</th> 
+		 <th> COMMO</th>
+		 <th> DEPTNO</th>
+        </tr>	 
+	 </thead>
+	 <tbody>
+	   <tr>
+	     <td> 7499</td> <td>ALLEN</td>  <td>SALESMAN</td>  <td>7698</td>
+        <td>20-FEB-1981</td><td> 1600</td>  <td>300</td><td>30</td>
+	 
+	   </tr
+	    <tr>
+           <td> 7521</td> <td>WARD</td>  <td>SALESMAN</td>  <td>7698</td>
+         <td>20-MAY-1983</td><td> 1250</td>  <td>500</td><td>30</td>
+	    </tr>
+	   <tr>
+	     <td> 7492</td> <td>JONES</td>  <td>MANAGER</td>  <td>7698</td>
+        <td>20-JUN-1988</td><td> 1900</td>  <td>600</td><td>10</td>
+	 
+	   </tr>
+	   <tr>
+	     <td> 7494</td> <td>MARTIN</td>  <td>ANALYST</td>  <td>7697</td>
+        <td>20-JUL-1999</td><td> 1600</td>  <td>300</td><td>20</td>
+	 
+	   </tr>
+	   <tr>
+	     <td> 7496</td> <td>KING</td>  <td>PRESIDENT</td>  <td>7698</td>
+        <td>20-FEB-1981</td><td> 1500</td>  <td>900</td><td>30</td>
+	 
+	   </tr>
+	 </tbody>
+	 <tfoot>
+	     <tr>
+		 <td id="lastrow" colspan="8">End of the Records</td>
+		 
+		 </tr>
+	 </tfoot>
+	 
+   </table>
+   </div>
+</body>
+<html>
